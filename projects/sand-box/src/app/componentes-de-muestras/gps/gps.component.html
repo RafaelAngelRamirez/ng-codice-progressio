@@ -1,0 +1,11 @@
+<h1>GPS</h1>
+<hr />
+
+<pre>{{ coordenadas | json }}</pre>
+
+<br />
+
+<div *ngIf="error" class="alert alert-danger" role="alert">
+  <strong>Error</strong>
+  {{ error }}
+</div>

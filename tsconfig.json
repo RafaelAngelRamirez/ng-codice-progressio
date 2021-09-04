@@ -1,0 +1,49 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "es2020",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "indexed-db": [
+        "dist/indexed-db/indexed-db",
+        "dist/indexed-db"
+      ],
+      "estatus-conexion": [
+        "dist/estatus-conexion/estatus-conexion",
+        "dist/estatus-conexion"
+      ],
+      "gps": [
+        "dist/gps/gps",
+        "dist/gps"
+      ],
+      "zebra-printer": [
+        "dist/zebra-printer/zebra-printer",
+        "dist/zebra-printer"
+      ],
+      "modal": [
+        "dist/modal/modal",
+        "dist/modal"
+      ],
+      "@codice-progressio/input-validaciones": [
+        "dist/codice-progressio/input-validaciones/codice-progressio-input-validaciones",
+        "dist/codice-progressio/input-validaciones"
+      ],
+      "input-validaciones": [
+        "dist/input-validaciones/input-validaciones",
+        "dist/input-validaciones"
+      ]
+    }
+  }
+}
